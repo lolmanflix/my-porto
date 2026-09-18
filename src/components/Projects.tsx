@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { gsap } from 'gsap'
-import { ExternalLink, Github, Smartphone, Globe, Palette, Monitor, MapPin, GraduationCap, ShoppingBag } from 'lucide-react'
+import { ExternalLink, Globe, Palette, Monitor, MapPin, GraduationCap, ShoppingBag } from 'lucide-react'
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -192,27 +192,6 @@ const Projects = () => {
   const filteredProjects = activeFilter === 'all' 
     ? projects 
     : projects.filter(project => project.category === activeFilter)
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.5,
-      },
-    },
-  }
 
   return (
     <section id="projects" className="py-20 bg-white dark:bg-gray-900">

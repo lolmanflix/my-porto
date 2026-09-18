@@ -6,12 +6,10 @@ import {
   Smartphone,
   Globe,
   Database,
-  Code,
   Cpu,
   Network,
   FileCode,
   Server,
-  Layers,
   Zap,
   Code2,
 } from 'lucide-react'
@@ -22,7 +20,6 @@ const Skills = () => {
     threshold: 0.1,
   })
   const languagesCardRef = useRef<HTMLDivElement>(null)
-  const skillsContainerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     if (inView && languagesCardRef.current) {

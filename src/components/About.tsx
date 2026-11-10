@@ -114,7 +114,7 @@ const About = () => {
           <motion.div variants={itemVariants} className="space-y-6">
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-                Hello! I'm <strong className="text-primary-600 dark:text-primary-400">Kareem Diyaa</strong>, an <strong className="text-primary-600 dark:text-primary-400">18-year-old</strong> full-stack developer 
+                Hello! I'm <strong className="text-primary-600 dark:text-primary-400">Kareem Diyaa</strong>, an <strong className="text-primary-600 dark:text-primary-400">19-year-old</strong> full-stack developer 
                 specializing in mobile and web applications. I'm passionate about creating seamless user experiences 
                 and building robust, scalable solutions.
               </p>

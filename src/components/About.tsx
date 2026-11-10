@@ -106,7 +106,7 @@ const About = () => {
                 ref={ageBadgeRef}
                 className="absolute -bottom-4 -right-4 bg-gradient-to-r from-primary-600 to-primary-500 text-white px-5 py-2.5 rounded-lg shadow-xl font-bold text-lg"
               >
-                Age: 18
+                Age: 19
               </div>
             </div>
           </motion.div>
